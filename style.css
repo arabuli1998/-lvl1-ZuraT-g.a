@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    background-color: rgba(0, 31, 39, 0.795);
+    
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(4, 15, 37, 0.842);
+    text-align: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+li{
+    flex: 1 4 200px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+   
+    
+    color: blue;
+    
+}
+
+
+.logo{
+    background-color: rgba(4, 15, 37, 0.842);
+    height:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.logo h1{
+    flex:2 2 250px;
+    color: white;
+}
+.red{
+    color: red;
+}
+.logo i{
+    flex: 2 2 150px;
+    font-size: 50px;
+    color: red;
+    display: flex;
+    align-items: flex-start;
+}
+.logo i p{
+    color: white;
+    font-size: 20px;
+}
+.dir{
+    max-width: 80%;
+    min-width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.dir input{
+    flex: 2 1 200px;
+    
+}
+.dir button{
+   
+    max-width: 120px;
+    flex: 1 1 50px;
+    background-color:tomato;
+    height: 31px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.dir input{
+    
+    height: 29px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid tomato;
+    
+}
+
+.dir button:active{
+    height: 27px;
+    color: teal;
+    background-color: tomato;
+}
+#sia{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.class{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(241, 146, 36);
+    justify-content: space-evenly;
+    border: 1px solid orangered;
+}
+.sul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+   border-top: 1px solid white;
+   align-items: center;
+}
+.satauri{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.satauri i{
+    font-size: 50px;
+    color: green;
+}
+.satauri h3{
+    color: white;
+    font-size: 30px;
+}
+.sul p{
+    width: 150px;
+}
+.sul a{
+    width: 150px;
+    color: wheat;
+    text-decoration: none;
+}
+.sul a:hover{
+    color: rgb(221, 96, 96);
+}
